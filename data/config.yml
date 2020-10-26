@@ -1,0 +1,17 @@
+user_agent: "FitnessparkAPI %{version}"
+stores:
+  default_params:
+    verbosity: store
+    limit: '5000'
+    aggregation_options[empty_buckets]: 'true'
+    filters[markets][0][]:
+    - fitnesspark
+    - activ_fitness
+    - flowerpower
+    - migros_fitnessclub
+    - one_training_center
+    - mfit
+    - migros_fitnesscenter
+    - aquaparks
+    - elements
+    - only_fitness
